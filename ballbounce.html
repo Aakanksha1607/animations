@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:90px;
+            margin-top: 100px;
+        }
+        .container{
+            display: flex;
+           width:100%;
+           height:100vh;
+           border:2px solid;
+           margin-top: 500px; 
+          padding-left:100px;
+           align-items: center;
+           background-color: cornflowerblue;
+           background-image:linear-gradient( 43deg,cornflowerblue 0%,rgb(210, 9, 210),rgb(111, 47, 156),rgb(69, 69, 198),rgb(97, 183, 97),rgb(244, 244, 55),rgb(243, 164, 18),rgb(251, 49, 49));
+
+        }
+        .a{
+            width:100px;
+            height:100px;
+            border:2px solid;
+            border-radius: 100px;
+            margin:20px;
+            background-color: chocolate;
+            animation-name:bounce;
+            animation-duration: 1.2s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            
+        }
+        .b{
+            width:100px;
+            height:100px;
+            border:2px solid;
+            border-radius: 80px;
+            margin:20px;
+            background-color: rgb(57, 210, 30);
+            animation-name:bounce;
+            animation-duration: 1.2s;
+            animation-delay: 1.1s;
+            animation-iteration-count: infinite;
+            
+            
+        }
+        .c{
+            width:100px;
+            height:100px;
+            border:2px solid;
+            border-radius: 80px;
+            margin:20px;
+            background-color: rgb(72, 30, 210);
+            animation-name:bounce;
+            animation-duration: 1.2s;
+            animation-delay: 1.2s;
+            animation-iteration-count: infinite;
+            
+          
+        }
+        .d{
+            width:100px;
+            height:100px;
+            border:2px solid;
+            border-radius: 80px;
+            margin:20px;
+            background-color: rgb(235, 86, 165);
+            animation-name:bounce;
+            animation-duration: 1.2s;
+            animation-delay: 1.3s;
+            animation-iteration-count: infinite; 
+        }
+        .e{
+            width:100px;
+            height:100px;
+            border:2px solid;
+            border-radius: 80px;
+            margin:20px;
+            background-color: rgb(210, 162, 30);
+            animation-name:bounce;
+            animation-duration: 1.2s;
+            animation-delay: 1.4s;
+            animation-iteration-count: infinite;  
+        }
+        .f{
+            width:100px;
+            height:100px;
+            border:2px solid;
+            border-radius: 80px;
+            margin:20px;
+            background-color: rgb(227, 101, 101);
+            animation-name:bounce;
+            animation-duration: 1.2s;
+            animation-delay: 1.5s;
+            animation-iteration-count: infinite; 
+        }
+        p{
+            /* padding-top:2px;
+            padding-left:50px; */
+            font-size: 100px;
+            color: rgb(16, 17, 17);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+           
+        }
+        h3{
+            position: relative;
+            right:600px;
+            top:200px;
+            font-size: 40px;
+            color: aquamarine;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background:linear-gradient(90deg, rgb(80, 190, 190),rgb(144, 235, 70),rgb(255, 0, 128)) ;
+            background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }
+       
+        @keyframes bounce {
+
+            0%{
+                transform: translateY(0px);   
+            } 
+            40%{
+                transform: translateY(30px);
+            }
+            60%{
+                transform: translateY(-35px); 
+                transform:scale(2,2);
+            }
+            80%{
+                transform: translateY(30px);  
+            }
+            100%{
+                transform: translateY(0px);
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div> <br>
+        <p>Loadingg....</p> 
+       <h3>PleaseWait..!!!</h3>
+       
+    </div>
+</body>
+</html>
